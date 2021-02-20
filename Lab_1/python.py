@@ -137,7 +137,6 @@ elif choose == 3:
         print(''.join('~') * 45)
         print('Wrong input, N must be natural integer number')
         print(''.join('~') * 45)
-        print(''.join('=') * 80)
     
     else:
 
@@ -171,13 +170,13 @@ elif choose == 3:
 
         print('Reverse list of negative: ', massiveOfNegative[::-1])     
 
-        #########################   
+    #########################   
 
-        print(''.join('-') * 20)
-        print('End of part 3')
-        print(''.join('=') * 20)    
+    print(''.join('-') * 20)
+    print('End of part 3')
+    print(''.join('=') * 20)    
 
-        ## End of Part 3 ##
+    ## End of Part 3 ##
 
 else:
 

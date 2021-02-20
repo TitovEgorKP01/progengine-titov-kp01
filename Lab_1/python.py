@@ -48,7 +48,7 @@ if choose == 1:
     
     else:
 
-        z = 0.0 
+        z = -inf 
 
         if a >= 15:
 
@@ -56,17 +56,17 @@ if choose == 1:
 
         else:
 
-            if (a + pow(b, 2)) <= 0:
+            if (a + pow(b, 2)) < 0:
 
                 print(''.join('~') * 55)
-                print('Error calculation, please be sure, that a + b^2 > 0')
+                print('Error calculation, please be sure, that a + b^2 >= 0')
                 print(''.join('~') * 55)
             
             else:    
                 
                 z = sqrt(a + pow(b, 2)) 
 
-        if z != 0:
+        if z != -inf:
 
             print('Result of function = ', z)   
 
